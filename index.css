@@ -1,0 +1,72 @@
+
+.container{
+width: 80%;
+text-align: center;
+margin: auto;
+margin-top: 60px;
+background: gray;
+}
+.dice{
+    display: inline-block;
+    text-align: center;
+    
+}
+body{
+    background: linear-gradient(300deg, blue, red,green);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+h1{
+    
+    font-family: "Sofia", sans-serif;
+    font-weight: bolder;
+    margin: 30px;
+    color: red;
+    
+}
+#header{
+    color: red;
+    margin-bottom: 2px;
+    font-size: 4.5rem;
+
+}
+p{
+    font-size: 2rem;
+  font-family: monospace;
+    font-weight: bold;
+    color: red;
+}
+.img{
+    width: 250px;
+}
+.space{
+    margin-left:25px;
+}
+.space1{
+    margin-right:25px;
+}
+.btn{
+    background: blue;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 50px;
+}
+.butson{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.playersname{
+    text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: gold;
+}
+.inputs{
+    border-top: 3px solid red;
+    border-right: 4px solid green;
+    background:grey;
+    color: white;
+    
+}
